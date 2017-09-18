@@ -21,12 +21,12 @@ class BackboneApplicationExtension extends \Twig_Extension
   {
     return array(
       new \Twig_SimpleFunction(
-        'model',
+        'backbone_model',
         array($this, 'getClientModel'),
         array('is_safe' => array('html'))
       ),
       new \Twig_SimpleFunction(
-        'collection',
+        'backbone_collection',
         array($this, 'getClientModelCollection'),
         array('is_safe' => array('html'))
       )

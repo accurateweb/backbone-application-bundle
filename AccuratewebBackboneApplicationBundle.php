@@ -5,7 +5,7 @@
  * For the full copyright and license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Accurateweb\ClientApplicationBundle;
+namespace Accurateweb\BackboneApplicationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
